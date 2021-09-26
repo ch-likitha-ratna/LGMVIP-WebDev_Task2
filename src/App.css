@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+.app{
+  background-color: fuchsia;
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  
+}
+.app-heading{
+  padding: 30px;
+  margin-left: 20px;
+  font-family: 'Helvetica',sans-serif;
+  font-weight: 1000;
+}
+.btn{
+  background-color:lawngreen;
+  margin: 200px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  color: #000;
+}
+.btn:hover{
+  background-color:lime;
+  border: 2px solid black;
+  cursor: pointer;
+}
+.card-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+.card{
+display: flex;
+flex-direction: column;
+align-items: center;
+border: 2px solid black;
+margin: 20px;
+padding: 10px;
+border-radius: 10px;
+box-shadow: 0 0 10px #000;
+}
+.card:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+}
+.card-top{
+  width: 100%;
+
+}
+.card-img{
+  width: 100%;
+  height: 250px;
+}
+.card-bottom{
+  color: #fff;
+}
